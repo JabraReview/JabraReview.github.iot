@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jabra Review — Movie Updates & Reviews</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">🎬 JABRA REVIEW</h1>
+      <nav>
+        <a href="#reviews">Reviews</a>
+        <a href="#trailers">Trailers</a>
+        <a href="#updates">Updates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="overlay">
+      <h2>Welcome to <span>Jabra Review</span></h2>
+      <p>Your #1 stop for Movie Reviews, Upcoming Releases & Trailer Updates</p>
+      <a href="#reviews" class="btn">Explore Reviews</a>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews" class="container section">
+    <h3 class="section-title">Latest Reviews</h3>
+    <div class="grid">
+      <article class="card">
+        <img src="https://via.placeholder.com/400x220.png?text=KGF+3+Review" alt="KGF 3 Review">
+        <h4>KGF 3 First Look Review</h4>
+        <p>हमने KGF 3 का पूरा review किया — story, action और क्या उम्मीदें हैं…</p>
+        <a href="#">Read More</a>
+      </article>
+      <article class="card">
+        <img src="https://via.placeholder.com/400x220.png?text=King+Movie+Review" alt="King Review">
+        <h4>Shahrukh Khan in KING</h4>
+        <p>SRK की अगली film "King" पर हमारी detailed trailer analysis और review…</p>
+        <a href="#">Read More</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Trailers -->
+  <section id="trailers" class="dark-section">
+    <div class="container">
+      <h3 class="section-title">Trailer Reviews</h3>
+      <div class="video-grid">
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="Trailer Review" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="Trailer Review" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Updates -->
+  <section id="updates" class="container section">
+    <h3 class="section-title">Upcoming Movies & News</h3>
+    <ul class="updates">
+      <li><strong>Pushpa 2</strong> — releasing soon with Allu Arjun (mass updates inside)</li>
+      <li><strong>Pathaan 2</strong> — early talks with YRF Spy Universe</li>
+      <li><strong>Salaar Part 2</strong> — Prabhas comeback with full action</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="dark-section">
+    <div class="container">
+      <h3 class="section-title">Contact & Social</h3>
+      <p>Email: <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a></p>
+      <p>Follow us on:
+        <a href="#">YouTube</a> | 
+        <a href="#">Instagram</a> | 
+        <a href="#">Twitter</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Jabra Review. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
